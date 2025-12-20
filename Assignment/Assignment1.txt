@@ -19,4 +19,114 @@ Group A: Short Questions
   information on the internet.
 
 3.Define the World Wide Web (WWW).
-=>
+=>The World Wide Web (WWW) is a system of interconnected webpages and information 
+ that can be accessed using the internet. It enables content sharing over the internet.
+
+4.Distinguish between a static web page and a dynamic web page.
+=> Static web page is simple to build, primarily using client-side languages like HTML,
+  CSS and basic JavaScript but Dynamic web page is more complex requiring server-side
+  scripting language like PHP, Python and databases.
+
+Group B: Long Questions 
+5. Explain the client-server architecture of the web with a neat diagram.
+=> The client-server architecture of the web is a fundamental computing model where
+  tasks and workloads are distributed between a client (who requests for a service)
+  and a server (the service provider) across a network, following a request-response 
+  pattern.
+
+  The user performs an actdion for example, typing a URL into a browser, clicking a 
+  link, sending an email etc which triggers the client to send a request to the server 
+  which is also termed as request initiation stage. The request, typically an HTTP message 
+  travels over the internet to the server's IP address, often after a Domain Name System (DNS)
+  which translates the domain name to an IP address. The server receives the request, processes
+  it and prepares a response.The server sends the requested data or a status message back to
+  the client. The client receives the response and renders it for the user to view and 
+  interact with.Some real-world examples of client-server architecture are web browsing,
+  email, online banking etc.
+
+6. Describe the functions of the following Internet services: Email, FTP, and VoIP.
+=> The fuctions of the internet services of Email, FTP, and VoIP are:
+  Email: The main function of email is creating, sending, receiving and managing electronic
+  messages. It supports creating messages with text, formatting and attachments (documents,
+  images, etc). Moving emails between sender and receiver using servers and protocols like 
+  SMTP for sending and POP3/IMAP for receiving is also the function of email.
+
+  FTP: The primary function of FTP (File Trasfer Protocol) is the reliable transfer of files
+  between a client and a server. Beyond the simple function of moving files the other
+  functions of FTP are file and directory management, user authentication and access control,
+  platform compatibility, data sharing and collaboration and data backup and recovery.
+
+  VoIP: The function of VoIP is converting analog voice into digital data packets, sends them
+  via IP and convert them back into sound. Making calls from computers smartphones, tablets 
+  or dedicated VoIP phones is also the function of VoIP. 
+
+7. "The internet is a network of networks." Elaborate on this statement explaining how
+packet switching works.
+=> The statement "the internet is a network of networks" describes its architecture as
+  decentralized collection of interconnected smaller networks such as local area 
+  networks (LANs), wide area networks (WANs) and individual home networks. These networks
+  link together through various devices, like routers and switches. 
+  Data trasmission across this infrastructure uses a method called paket switching. This 
+  technology breaks down messages into small, manageable data units called packets and sends
+  them independently across the network. When a user sends data, the message is divided into 
+  smaller, fixed-sized packets. Each packet is tagged with a header containing the sender's 
+  and receiver's IP addresses. The packets are then injected into a network. Each packet is 
+  routed independently taking different paths based on network congestion or efficiency.At 
+  the destination the receiver collects all the packets. It uses the sequence numbers in 
+  the header to reassemble them into the original complete message. The final stage is
+  verification, the receiving system checks for error-checking information. If any packets 
+  are missing or corrupted, the recipient can request retransmission from sender to ensure
+  data integrity.
+
+Group C: Scenario-Based Questions
+8. A startup company wnats to host a website that displays the same information to all
+visitors and requires very low maintenance costs. However, they are being advised to use 
+a dynamic website. As a consultant, would you agree? Justify your answer.
+=> I would not agree with the advise to use a dynamic website. For specific usecase,
+a static website is the best choice. Static website displays the same information to 
+all the visitors. On the other side, dynamic website is designed to change content 
+based on user interaction, time or database queries.Since the startup doesn't
+need personalization, a dynamic site is unnecessary. Static website requires very low 
+maintenance costs but dynamic website requires high maintenance costs which should
+update the Content Management System (CMS), manage the database, and ensure the server 
+environment is secure from SQL injections or other vulnerabilities. Static websites 
+can be hosted for very cheap as they require minimal server resources. Static websites are 
+faster because the server doesn't have to build the page from a database every time someone 
+clicks a link.
+So, advising a dynamic website introduces unnecessary technical debt, higher hosting costs,
+and security risks for a company that only needs to display fixed information.
+
+9. A user type www.google.com into their browser but the browser displays a "Server not
+Found" error even though the internet connection is active. However, acessing the site via
+142.250.190.46 works. Diagnose the problem and explain the underlying technology that 
+failed.
+=> The problem is a failure in the DomainName System (DNS) resolution. Since the site loads 
+when using the IP address, we know the web server is online and the internet connection is 
+working. The "Server Not Found" error appearing only for the URL indicates that the 
+browser cannot translate the human-readable name into the machine-readable IP address.
+
+DNS maps domain names to IP addresses. When a user types a URL, the computer sends 
+a request to DNS Resolver.The resolver searches through a hierarchy of servers to 
+find the correct IP address associated with that name.In this scenario the link is broken.
+This could be due to misconfigured DNS settings on the user's computer. A failure at the
+internet service provider's(ISP) Dns service may be the problem. An issue with the
+website's own DNS records may also be the problem behind the given scenario.
+
+10. A multinational corporation wants to share sensiitve inventory data with specific 
+suppliers but doen't want this information available to the general public. Explain 
+which network type (Intranet, Extranet or Internet) they should implement and why?
+=> A multinational corporation should implement an Extranet network type. 
+An internet is strictly for internal employees. While it is secure, it would not allow the 
+specific suppliersto access the inventory data. The internet is a global network.Since the 
+corporation wants to share sensitive inventory data and doen't want it available to the
+general public the public internet is too insecure for this purpose. An extranet acts as a 
+private extension of an internet. It uses firewalls and security protocols to allow 
+authorized external users like suppliers to access a limited part of the corporation's 
+internal network without exposing it to everyone on the internet.So, the corporation 
+should implement an extranet. This is the best choice because an extranet allows a company 
+to securely share internal information with authorized external suppliers while maintaining
+a firewall to keep data hidden from the general public.It provides the necessary balance
+between the total privacy of an intranet and the total openness of the inetrnet.
+
+
+
