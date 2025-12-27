@@ -41,9 +41,21 @@
 
 ### b. Functionality Problem: A functional site on a developer's machine rarely behaves the same way in the user's side. Testing ensures the user journey is seamless. There may arise a problem of broken checkout. If a bug prevents a customer from adding a discount code or completing a payment, they won't report it, they’ll simply leave for a competitor. The site might look great on a desktop but be completely unusable on specific iPhone or Android browsers.
 
-### c.Scalability & Capability Risks: We want the launch to be a success, but success brings traffic. Without "Load and Stress Testing," we don't know the site's breaking point. If the marketing campaign is successful and 1,000 people visit at once, an untested server architecture could crash, leading to a total loss of sales during the most critical moment. Without testing the logic between the storefront and the database, there is risk of "overselling" items which are not available in stock, leading to a customer service nightmare.
+### c. Scalability & Capability Risks: We want the launch to be a success, but success brings traffic. Without "Load and Stress Testing," we don't know the site's breaking point. If the marketing campaign is successful and 1,000 people visit at once, an untested server architecture could crash, leading to a total loss of sales during the most critical moment. Without testing the logic between the storefront and the database, there is risk of "overselling" items which are not available in stock, leading to a customer service nightmare.
 
-### 9. 
+### 9. A developer begins coding a website immediately after meeting the client, without creating a design prototype or sitemap. Midway through, the client rejects the layout. Analyze what went wrong in the process and how it should have been handled.
+### =>The developer failed to follow a structured software development methodology, specifically omitting the critical planning and design phases where client collaboration and approval are essential. The developer's primary mistake was starting the implementation before defining the requirements and design with the client. This "code first" approach meant there was no shared understanding or documented agreement of the final product, leading to a mismatch in expectations and the client's rejection of the layout. It should have been handled by:
+### a. Requirements Gathering: Conduct detailed meetings to understand the client's vision, target audience, and functional needs.
+### b. Planning and Design: Create a sitemap and a design prototype or wireframe.
+### c. Client Approval: Present the sitemap and prototype to the client for feedback and formal sign-off before writing any significant code.
+
+### 10. A university website was launched successfully, but after six months, students stopped visiting it because the exam schedule were outdated. Which phase of the development lifecycle was neglected? Explain the activities involved in this phase.
+### =>The phase of the development lifecycle that was neglected is the maintenance phase. This phase is critical because it addresses issues that arise after the product has been deployed and is being used by customers. Activities involved in the maintenance phase are:
+### a. Bug fixes: Correcting errors or defects discovered after deployment.
+### b. Updates: Providing new features, security patches, or content updates (like updating the exam schedule in this case).
+### c. Performance enhancements: Optimizing the system for better speed, efficiency, or user experience.
+### d. Documentation updates: Ensuring all related documentation reflects the current state of the system.
+
 
 
 
